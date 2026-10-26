@@ -6,12 +6,14 @@ import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import DemoOne from "@/components/ui/demo";
 import Home from "./pages/Home";
+import ReviewsPage from "./pages/Reviews";
 
 function Router() {
   // make sure to consider if you need authentication for certain routes
   return (
     <Switch>
       <Route path={"/"} component={Home} />
+      <Route path={"/reviews"} component={ReviewsPage} />
       <Route path={"/demo"} component={DemoOne} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}

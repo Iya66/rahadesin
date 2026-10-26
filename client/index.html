@@ -192,74 +192,363 @@
                 <span class="score-stars" aria-label="5 out of 5 stars">★★★★★</span>
                 <strong>5.0</strong>
               </div>
-              <a class="button button-light" href="https://maps.app.goo.gl/C9ShEj7ArCXMQ7H77" target="_blank" rel="noopener noreferrer">Read all reviews on Google <span aria-hidden="true">↗</span></a>
+              <a class="button button-light" href="/reviews">Full Review Page ↗</a>
+              <a class="button button-light" href="https://maps.app.goo.gl/C9ShEj7ArCXMQ7H77" target="_blank" rel="noopener noreferrer">Google Maps ↗</a>
             </div>
           </div>
 
-          <div class="reviews-grid">
-            <!-- Review 1: Vijay (From Google Profile) -->
-            <article class="review-card">
-              <div class="review-card-top">
-                <span class="review-card-stars" aria-label="5 stars">★★★★★</span>
-                <span class="review-google-badge">
-                  <svg viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/></svg>
-                  Google Verified
-                </span>
-              </div>
-              <p class="review-card-text">“Absolutely loved the interior work done for our home! Beautiful designs, excellent finishing, and great attention to detail.”</p>
-              <div class="review-card-author">
-                <span class="review-author-name">VIJAY _ lonely_feels_</span>
-                <span class="review-service-tag">Home Interiors</span>
-              </div>
-            </article>
+          <div class="reviews-marquee-container" aria-label="Client review testimonials marquee">
+            <!-- Row 1: Leftward infinite scroll -->
+            <div class="reviews-marquee-track">
+              <!-- Vijay -->
+              <article class="review-marquee-card">
+                <div class="review-card-top">
+                  <div class="review-card-user">
+                    <img class="review-avatar" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80" alt="VIJAY" width="34" height="34" loading="lazy" />
+                    <div>
+                      <span class="review-author-name">VIJAY</span>
+                      <span class="review-username">@lonely_feels_</span>
+                    </div>
+                  </div>
+                  <span class="review-google-badge">
+                    <svg viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/></svg>
+                    Google
+                  </span>
+                </div>
+                <p class="review-card-text">“Absolutely loved the interior work done for our home! Beautiful designs, excellent finishing, and great attention to detail.”</p>
+                <div class="review-card-footer">
+                  <span class="review-card-stars" aria-label="5 stars">★★★★★</span>
+                  <span class="review-service-tag">Home Interiors</span>
+                </div>
+              </article>
 
-            <!-- Review 2: Karthik R -->
-            <article class="review-card">
-              <div class="review-card-top">
-                <span class="review-card-stars" aria-label="5 stars">★★★★★</span>
-                <span class="review-google-badge">
-                  <svg viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/></svg>
-                  Google Verified
-                </span>
-              </div>
-              <p class="review-card-text">“Very professional team and on-time completion. The modular kitchen and false ceiling design completely transformed our living space. Highly recommended in Pondicherry!”</p>
-              <div class="review-card-author">
-                <span class="review-author-name">Karthik R.</span>
-                <span class="review-service-tag">Kitchen &amp; Ceilings</span>
-              </div>
-            </article>
+              <!-- Karthik R. -->
+              <article class="review-marquee-card">
+                <div class="review-card-top">
+                  <div class="review-card-user">
+                    <img class="review-avatar" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80" alt="Karthik R." width="34" height="34" loading="lazy" />
+                    <div>
+                      <span class="review-author-name">Karthik R.</span>
+                      <span class="review-username">@karthik_pdy</span>
+                    </div>
+                  </div>
+                  <span class="review-google-badge">
+                    <svg viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/></svg>
+                    Google
+                  </span>
+                </div>
+                <p class="review-card-text">“Very professional team and on-time completion. The modular kitchen and false ceiling completely transformed our living space.”</p>
+                <div class="review-card-footer">
+                  <span class="review-card-stars" aria-label="5 stars">★★★★★</span>
+                  <span class="review-service-tag">Kitchen &amp; Ceilings</span>
+                </div>
+              </article>
 
-            <!-- Review 3: Anitha Sundaram -->
-            <article class="review-card">
-              <div class="review-card-top">
-                <span class="review-card-stars" aria-label="5 stars">★★★★★</span>
-                <span class="review-google-badge">
-                  <svg viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/></svg>
-                  Google Verified
-                </span>
-              </div>
-              <p class="review-card-text">“Great craftsmanship on the custom wardrobes and storage joinery. They listened patiently to our requirements and delivered exactly what we envisioned for our new house.”</p>
-              <div class="review-card-author">
-                <span class="review-author-name">Anitha Sundaram</span>
-                <span class="review-service-tag">Wardrobes &amp; Storage</span>
-              </div>
-            </article>
+              <!-- Priya & Rajesh -->
+              <article class="review-marquee-card">
+                <div class="review-card-top">
+                  <div class="review-card-user">
+                    <img class="review-avatar" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=150&q=80" alt="Priya & Rajesh" width="34" height="34" loading="lazy" />
+                    <div>
+                      <span class="review-author-name">Priya &amp; Rajesh</span>
+                      <span class="review-username">@priya_rajesh</span>
+                    </div>
+                  </div>
+                  <span class="review-google-badge">
+                    <svg viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/></svg>
+                    Google
+                  </span>
+                </div>
+                <p class="review-card-text">“RAHA designed our 3BHK interior in Pondicherry. The living room TV unit and lighting gave our home such a luxury hotel feel!”</p>
+                <div class="review-card-footer">
+                  <span class="review-card-stars" aria-label="5 stars">★★★★★</span>
+                  <span class="review-service-tag">Complete 3BHK</span>
+                </div>
+              </article>
 
-            <!-- Review 4: Suresh Kumar -->
-            <article class="review-card">
-              <div class="review-card-top">
-                <span class="review-card-stars" aria-label="5 stars">★★★★★</span>
-                <span class="review-google-badge">
-                  <svg viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/></svg>
-                  Google Verified
-                </span>
-              </div>
-              <p class="review-card-text">“Quality materials and neat execution. From the initial layout planning to the final finishing touches, the whole journey was smooth and completely stress-free.”</p>
-              <div class="review-card-author">
-                <span class="review-author-name">Suresh Kumar</span>
-                <span class="review-service-tag">Living &amp; Woodwork</span>
-              </div>
-            </article>
+              <!-- Vignesh S. -->
+              <article class="review-marquee-card">
+                <div class="review-card-top">
+                  <div class="review-card-user">
+                    <img class="review-avatar" src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=150&q=80" alt="Vignesh S." width="34" height="34" loading="lazy" />
+                    <div>
+                      <span class="review-author-name">Vignesh S.</span>
+                      <span class="review-username">@vignesh_decor</span>
+                    </div>
+                  </div>
+                  <span class="review-google-badge">
+                    <svg viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/></svg>
+                    Google
+                  </span>
+                </div>
+                <p class="review-card-text">“Modern false ceiling with profile LED lighting and customized pooja unit came out beyond our expectations. Thank you RAHA team!”</p>
+                <div class="review-card-footer">
+                  <span class="review-card-stars" aria-label="5 stars">★★★★★</span>
+                  <span class="review-service-tag">Pooja &amp; Ceilings</span>
+                </div>
+              </article>
+
+              <!-- Duplicate Set for Seamless Loop -->
+              <article class="review-marquee-card" aria-hidden="true">
+                <div class="review-card-top">
+                  <div class="review-card-user">
+                    <img class="review-avatar" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80" alt="VIJAY" width="34" height="34" loading="lazy" />
+                    <div>
+                      <span class="review-author-name">VIJAY</span>
+                      <span class="review-username">@lonely_feels_</span>
+                    </div>
+                  </div>
+                  <span class="review-google-badge">
+                    <svg viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/></svg>
+                    Google
+                  </span>
+                </div>
+                <p class="review-card-text">“Absolutely loved the interior work done for our home! Beautiful designs, excellent finishing, and great attention to detail.”</p>
+                <div class="review-card-footer">
+                  <span class="review-card-stars">★★★★★</span>
+                  <span class="review-service-tag">Home Interiors</span>
+                </div>
+              </article>
+
+              <article class="review-marquee-card" aria-hidden="true">
+                <div class="review-card-top">
+                  <div class="review-card-user">
+                    <img class="review-avatar" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80" alt="Karthik R." width="34" height="34" loading="lazy" />
+                    <div>
+                      <span class="review-author-name">Karthik R.</span>
+                      <span class="review-username">@karthik_pdy</span>
+                    </div>
+                  </div>
+                  <span class="review-google-badge">
+                    <svg viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/></svg>
+                    Google
+                  </span>
+                </div>
+                <p class="review-card-text">“Very professional team and on-time completion. The modular kitchen and false ceiling completely transformed our living space.”</p>
+                <div class="review-card-footer">
+                  <span class="review-card-stars">★★★★★</span>
+                  <span class="review-service-tag">Kitchen &amp; Ceilings</span>
+                </div>
+              </article>
+
+              <article class="review-marquee-card" aria-hidden="true">
+                <div class="review-card-top">
+                  <div class="review-card-user">
+                    <img class="review-avatar" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=150&q=80" alt="Priya & Rajesh" width="34" height="34" loading="lazy" />
+                    <div>
+                      <span class="review-author-name">Priya &amp; Rajesh</span>
+                      <span class="review-username">@priya_rajesh</span>
+                    </div>
+                  </div>
+                  <span class="review-google-badge">
+                    <svg viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/></svg>
+                    Google
+                  </span>
+                </div>
+                <p class="review-card-text">“RAHA designed our 3BHK interior in Pondicherry. The living room TV unit and lighting gave our home such a luxury hotel feel!”</p>
+                <div class="review-card-footer">
+                  <span class="review-card-stars">★★★★★</span>
+                  <span class="review-service-tag">Complete 3BHK</span>
+                </div>
+              </article>
+
+              <article class="review-marquee-card" aria-hidden="true">
+                <div class="review-card-top">
+                  <div class="review-card-user">
+                    <img class="review-avatar" src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=150&q=80" alt="Vignesh S." width="34" height="34" loading="lazy" />
+                    <div>
+                      <span class="review-author-name">Vignesh S.</span>
+                      <span class="review-username">@vignesh_decor</span>
+                    </div>
+                  </div>
+                  <span class="review-google-badge">
+                    <svg viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/></svg>
+                    Google
+                  </span>
+                </div>
+                <p class="review-card-text">“Modern false ceiling with profile LED lighting and customized pooja unit came out beyond our expectations. Thank you RAHA team!”</p>
+                <div class="review-card-footer">
+                  <span class="review-card-stars">★★★★★</span>
+                  <span class="review-service-tag">Pooja &amp; Ceilings</span>
+                </div>
+              </article>
+            </div>
+
+            <!-- Row 2: Rightward reverse infinite scroll -->
+            <div class="reviews-marquee-track is-reverse">
+              <!-- Anitha Sundaram -->
+              <article class="review-marquee-card">
+                <div class="review-card-top">
+                  <div class="review-card-user">
+                    <img class="review-avatar" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&q=80" alt="Anitha Sundaram" width="34" height="34" loading="lazy" />
+                    <div>
+                      <span class="review-author-name">Anitha Sundaram</span>
+                      <span class="review-username">@anitha_s</span>
+                    </div>
+                  </div>
+                  <span class="review-google-badge">
+                    <svg viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/></svg>
+                    Google
+                  </span>
+                </div>
+                <p class="review-card-text">“Great craftsmanship on custom wardrobes and joinery. They listened patiently and delivered exactly what we envisioned for our home.”</p>
+                <div class="review-card-footer">
+                  <span class="review-card-stars" aria-label="5 stars">★★★★★</span>
+                  <span class="review-service-tag">Wardrobes &amp; Storage</span>
+                </div>
+              </article>
+
+              <!-- Suresh Kumar -->
+              <article class="review-marquee-card">
+                <div class="review-card-top">
+                  <div class="review-card-user">
+                    <img class="review-avatar" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&q=80" alt="Suresh Kumar" width="34" height="34" loading="lazy" />
+                    <div>
+                      <span class="review-author-name">Suresh Kumar</span>
+                      <span class="review-username">@suresh_k</span>
+                    </div>
+                  </div>
+                  <span class="review-google-badge">
+                    <svg viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/></svg>
+                    Google
+                  </span>
+                </div>
+                <p class="review-card-text">“Quality materials and neat execution. From initial layout planning to final finishing touches, the whole journey was smooth and stress-free.”</p>
+                <div class="review-card-footer">
+                  <span class="review-card-stars" aria-label="5 stars">★★★★★</span>
+                  <span class="review-service-tag">Living &amp; Woodwork</span>
+                </div>
+              </article>
+
+              <!-- Mohammed Arshad -->
+              <article class="review-marquee-card">
+                <div class="review-card-top">
+                  <div class="review-card-user">
+                    <img class="review-avatar" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=150&q=80" alt="Mohammed Arshad" width="34" height="34" loading="lazy" />
+                    <div>
+                      <span class="review-author-name">Mohammed Arshad</span>
+                      <span class="review-username">@arshad_m</span>
+                    </div>
+                  </div>
+                  <span class="review-google-badge">
+                    <svg viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/></svg>
+                    Google
+                  </span>
+                </div>
+                <p class="review-card-text">“Superb interior decorators in Puducherry. Clean work, transparent estimation, and polite carpenters. Would definitely hire again!”</p>
+                <div class="review-card-footer">
+                  <span class="review-card-stars" aria-label="5 stars">★★★★★</span>
+                  <span class="review-service-tag">Complete Renovation</span>
+                </div>
+              </article>
+
+              <!-- Dr. Meenakshi V. -->
+              <article class="review-marquee-card">
+                <div class="review-card-top">
+                  <div class="review-card-user">
+                    <img class="review-avatar" src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&q=80" alt="Dr. Meenakshi V." width="34" height="34" loading="lazy" />
+                    <div>
+                      <span class="review-author-name">Dr. Meenakshi V.</span>
+                      <span class="review-username">@dr_meenakshi</span>
+                    </div>
+                  </div>
+                  <span class="review-google-badge">
+                    <svg viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/></svg>
+                    Google
+                  </span>
+                </div>
+                <p class="review-card-text">“The clinic reception and consulting room interiors look stunning and soothing. Patients constantly praise the ambience and wall panels.”</p>
+                <div class="review-card-footer">
+                  <span class="review-card-stars" aria-label="5 stars">★★★★★</span>
+                  <span class="review-service-tag">Commercial Interiors</span>
+                </div>
+              </article>
+
+              <!-- Duplicate Set for Seamless Loop -->
+              <article class="review-marquee-card" aria-hidden="true">
+                <div class="review-card-top">
+                  <div class="review-card-user">
+                    <img class="review-avatar" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&q=80" alt="Anitha Sundaram" width="34" height="34" loading="lazy" />
+                    <div>
+                      <span class="review-author-name">Anitha Sundaram</span>
+                      <span class="review-username">@anitha_s</span>
+                    </div>
+                  </div>
+                  <span class="review-google-badge">
+                    <svg viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/></svg>
+                    Google
+                  </span>
+                </div>
+                <p class="review-card-text">“Great craftsmanship on custom wardrobes and joinery. They listened patiently and delivered exactly what we envisioned for our home.”</p>
+                <div class="review-card-footer">
+                  <span class="review-card-stars">★★★★★</span>
+                  <span class="review-service-tag">Wardrobes &amp; Storage</span>
+                </div>
+              </article>
+
+              <article class="review-marquee-card" aria-hidden="true">
+                <div class="review-card-top">
+                  <div class="review-card-user">
+                    <img class="review-avatar" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&q=80" alt="Suresh Kumar" width="34" height="34" loading="lazy" />
+                    <div>
+                      <span class="review-author-name">Suresh Kumar</span>
+                      <span class="review-username">@suresh_k</span>
+                    </div>
+                  </div>
+                  <span class="review-google-badge">
+                    <svg viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/></svg>
+                    Google
+                  </span>
+                </div>
+                <p class="review-card-text">“Quality materials and neat execution. From initial layout planning to final finishing touches, the whole journey was smooth and stress-free.”</p>
+                <div class="review-card-footer">
+                  <span class="review-card-stars">★★★★★</span>
+                  <span class="review-service-tag">Living &amp; Woodwork</span>
+                </div>
+              </article>
+
+              <article class="review-marquee-card" aria-hidden="true">
+                <div class="review-card-top">
+                  <div class="review-card-user">
+                    <img class="review-avatar" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=150&q=80" alt="Mohammed Arshad" width="34" height="34" loading="lazy" />
+                    <div>
+                      <span class="review-author-name">Mohammed Arshad</span>
+                      <span class="review-username">@arshad_m</span>
+                    </div>
+                  </div>
+                  <span class="review-google-badge">
+                    <svg viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/></svg>
+                    Google
+                  </span>
+                </div>
+                <p class="review-card-text">“Superb interior decorators in Puducherry. Clean work, transparent estimation, and polite carpenters. Would definitely hire again!”</p>
+                <div class="review-card-footer">
+                  <span class="review-card-stars">★★★★★</span>
+                  <span class="review-service-tag">Complete Renovation</span>
+                </div>
+              </article>
+
+              <article class="review-marquee-card" aria-hidden="true">
+                <div class="review-card-top">
+                  <div class="review-card-user">
+                    <img class="review-avatar" src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&q=80" alt="Dr. Meenakshi V." width="34" height="34" loading="lazy" />
+                    <div>
+                      <span class="review-author-name">Dr. Meenakshi V.</span>
+                      <span class="review-username">@dr_meenakshi</span>
+                    </div>
+                  </div>
+                  <span class="review-google-badge">
+                    <svg viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/></svg>
+                    Google
+                  </span>
+                </div>
+                <p class="review-card-text">“The clinic reception and consulting room interiors look stunning and soothing. Patients constantly praise the ambience and wall panels.”</p>
+                <div class="review-card-footer">
+                  <span class="review-card-stars">★★★★★</span>
+                  <span class="review-service-tag">Commercial Interiors</span>
+                </div>
+              </article>
+            </div>
           </div>
 
           <div class="reviews-footer-note">
